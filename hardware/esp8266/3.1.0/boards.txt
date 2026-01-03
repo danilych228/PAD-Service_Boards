@@ -1,0 +1,13 @@
+pad_one.name=PAD One (ESP-12)
+pad_one.build.board=ESP8266_PAD_ONE
+pad_one.build.variant=pad_one
+pad_one.upload.tool=esptool
+pad_one.upload.maximum_size=1044464
+pad_one.upload.speed=115200
+pad_one.menu.CrystalFreq.26=26 MHz
+pad_one.menu.CrystalFreq.26.build.crystal_freq=26
+pad_one.menu.FlashSize.4M1M=4M (1M SPIFFS)
+pad_one.menu.FlashSize.4M1M.build.flash_size=4M
+pad_one.menu.FlashSize.4M1M.build.flash_mode=dio
+pad_one.menu.FlashSize.4M1M.build.flash_freq=40
+pad_one.menu.FlashSize.4M1M.build.spiffs_pagesize=256
