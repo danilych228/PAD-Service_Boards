@@ -1,0 +1,14 @@
+pad_mini.name=PAD Mini
+pad_mini.upload.tool=avrdude
+pad_mini.upload.protocol=arduino
+pad_mini.upload.speed=115200
+pad_mini.bootloader.tool=avrdude
+pad_mini.bootloader.unlock_bits=0x3F
+pad_mini.bootloader.lock_bits=0x0F
+pad_mini.build.board=AVR_PAD_MINI
+pad_mini.build.core=arduino
+pad_mini.build.variant=pad_mini
+pad_mini.build.mcu=atmega328
+pad_mini.build.f_cpu=16000000L
+pad_mini.build.extra_flags=-DARDUINO_ARCH_AVR
+pad_mini.bootloader.file=optiboot/optiboot_pad_mini.hex
