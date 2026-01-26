@@ -1,0 +1,31 @@
+# PAD Air
+pad_air.name=PAD Air (ESP32)
+pad_air.upload.maximum_size=1310720
+pad_air.upload.speed=921600
+pad_air.build.board=ESP32_DEV
+pad_air.build.mcu=esp32
+pad_air.build.core=esp32
+pad_air.build.variant=pad_air
+pad_air.build.f_cpu=240000000L
+pad_air.build.flash_mode=dio
+pad_air.build.flash_freq=40m
+pad_air.build.flash_size=4MB
+pad_air.build.partitions=default
+
+# PAD Giga
+pad_giga.name=PAD Giga (ESP32 with HID)
+pad_giga.upload.maximum_size=1310720
+pad_giga.upload.speed=921600
+pad_giga.build.board=ESP32_DEV
+pad_giga.build.mcu=esp32
+pad_giga.build.core=esp32
+pad_giga.build.variant=pad_giga_hid
+pad_giga.build.f_cpu=240000000L
+pad_giga.build.flash_mode=dio
+pad_giga.build.flash_freq=40m
+pad_giga.build.flash_size=4MB
+pad_giga.build.partitions=default
+pad_giga.build.usb.product="PAD Giga"
+pad_giga.build.usb.manufacturer="PAD Service"
+pad_giga.build.usb.vid=0x239A
+pad_giga.build.usb.pid=0x80AB
